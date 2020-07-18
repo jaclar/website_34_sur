@@ -21,11 +21,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-page-creator`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        path: path.join(__dirname, `src`, `pages`),
+        path: `${__dirname}/src/pages`,
+        name: "pages",
       },
     },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],

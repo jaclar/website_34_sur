@@ -5,35 +5,20 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" aria-label="Twitter" className="icon alt fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Facebook" className="icon alt fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Instagram" className="icon alt fa-instagram">
+          <a href="https://www.instagram.com/34_sur" aria-label="Instagram" className="icon alt fa-instagram">
             <span className="label">Instagram</span>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="GitHub" className="icon alt fa-github">
+          <a href="https://github.com/jaclar" aria-label="GitHub" className="icon alt fa-github">
             <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="LinkedIn" className="icon alt fa-linkedin">
-            <span className="label">LinkedIn</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Untitled</li>
+          <li>Content: Creative Commons - Lars Jacob & Gisela Cardozo</li>
         <li>
-          Design: <a href="https://html5up.net">HTML5 UP</a>
+          Design: <a href="https://html5up.net">HTML5 UP</a> with sligh modifications
         </li>
       </ul>
     </div>

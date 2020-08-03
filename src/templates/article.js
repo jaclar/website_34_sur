@@ -37,7 +37,7 @@ export default function Generic ({ data }) {
 export const query = graphql`
   query($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
-      html
+      body
       frontmatter {
         title
         featuredImage {

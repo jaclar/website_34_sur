@@ -2,28 +2,31 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import Img from "gatsby-image"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
 import { graphql } from 'gatsby'
 
-import pic11 from '../assets/images/pic11.jpg'
-
 export default function Generic ({ data }) {
-  const post = data.markdownRemark
+  const post = data.mdx
+  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+
   return (
     <Layout>
         <Helmet>
             <title>{post.frontmatter.title}</title>
-            <meta name="description" content="Articulo" />
+            <meta name="description" content="Generic Page" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                      <h1>Articulo {post.frontmatter.title}</h1>
+                      <h1>{post.frontmatter.title}</h1>
                     </header>
-      <span className="image main"><img src={pic11} alt="" /></span>
+      <span className="image main"><Img fluid={featuredImgFluid} /></span>
 
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <MDXRenderer>{post.body}</MDXRenderer>
                 </div>
             </section>
         </div>
@@ -33,17 +36,18 @@ export default function Generic ({ data }) {
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
-
-
-
-
-
-
 `

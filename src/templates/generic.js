@@ -2,48 +2,66 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import Img from "gatsby-image"
+import { Link } from "gatsby"
+
+import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
 import { graphql } from 'gatsby'
 
-import pic11 from '../assets/images/pic11.jpg'
+const shortcodes = { Link } // Provide common components here
 
-export default function Generic ({ data }) {
-  const post = data.markdownRemark
+
+
+export default function Generic ({ data: { mdx } }) {
+  let FeaturedImage = () => (<span />)
+
+  if (mdx.frontmatter.featuredImage) {
+    FeaturedImage = () => (<span className="image main">
+                           <Img fluid={mdx.frontmatter.featuredImage.childImageSharp.fluid} />
+                           </span>);
+  }
+
   return (
     <Layout>
-        <Helmet>
-            <title>{post.frontmatter.title}</title>
-            <meta name="description" content="Generic Page" />
-        </Helmet>
+      <Helmet>
+        <title>{mdx.frontmatter.title}</title>
+        <meta name="description" content="Generic Page" />
+      </Helmet>
 
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                      <h1>{post.frontmatter.title}</h1>
-                    </header>
-      <span className="image main"><img src={pic11} alt="" /></span>
+      <div id="main" className="alt">
+        <section id="one">
+          <div className="inner">
+            <header className="major">
+              <h1>{mdx.frontmatter.title}</h1>
+            </header>
+            <FeaturedImage />
+            <MDXProvider components={shortcodes}>
+              <MDXRenderer>{mdx.body}</MDXRenderer>
+            </MDXProvider>
 
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                </div>
-            </section>
-        </div>
+          </div>
+        </section>
+      </div>
 
     </Layout>
   )}
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+    mdx(fields: { slug: { eq: $slug } }) {
+      body
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 2048) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
-
-
-
-
-
-
 `

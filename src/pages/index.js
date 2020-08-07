@@ -13,7 +13,7 @@ class HomeIndex extends React.Component {
         <Helmet
           title="34 Sur"
           meta={[
-            { name: 'description', content: 'Una fuente de información sobre veleros, navegación y otras boludeces' },
+            { name: 'description', content: '34 Sur es un sitio para documentar proyectos que estamos haciendo en el barco, compartir cosas que aprendimos o que nos interesan.' },
 
             { name: 'keywords', content: 'sailing, velero, sailboat, navegación, nautica' },
           ]}

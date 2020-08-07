@@ -3,7 +3,7 @@ title: Nosotros
 featuredImage: ../assets/images/lars-and-gise.jpg
 ---
 
-# La Tripulación
+# La tripulación
 
 Somos Gisela y Lars y estamos viviendo abordo de nuestro
 [Velero](./velero) en Buenos Aires, Argentina. Navegamos desde

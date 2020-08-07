@@ -1,5 +1,5 @@
 ---
-title: Nosotros
+title: Quienes somos
 featuredImage: ../assets/images/lars-and-gise.jpg
 ---
 

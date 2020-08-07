@@ -5,20 +5,22 @@ featuredImage: ../assets/images/velero/header.jpg
 
 # 侍 Samurai
 
-Nuestro velero Samurai es un Alpha 36 (version queche). Fue construido
+Nuestro velero Samurai es un Alpha 36 (versión queche). Fue construido
 en el astillero Alpha en el año 1987 en Buenos Aires, Argentina. 
 
-Por lo que vimos es el unico Alpha 36 con aparejo queche, pero si
-alguien tiene mas información nos gustaria saber. Tambien tiene
-trinquetilla que lleva la cantidad de velas a 4. Eso hace que hay un
-poco mas trabajo al momento de izar todas las velas, pero tambien da
-muchas opciones de reducir paño y mantener el barco equilibrado.
+Por lo que vimos es el único Alpha 36 con aparejo queche, pero si
+alguien tiene mas información ¡nos gustaría que nos cuente! También tiene
+trinquetilla que lleva la cantidad de velas a 4. Eso hace que lleve un
+poco más de trabajo el momento de izar todas las velas, pero también da
+distintas opciones para reducir paño y mantener el barco equilibrado.
 
-Como tiene un cockpit central y mucha manga pare esa eslora, tiene
-bastante volumen interno. Eso hace que es muy comodo para
-vivir. Entre amigos regatistas el Samurai esta conocido como 'coche
-comedor'. Tiene dos cabinas, una en popa con cama doble y otra en proa
-con cuchetas en v. 
+Como tiene un cockpit central y mucha manga para su eslora, tiene
+bastante volumen interno. Por lo que es muy cómodo para vivir.
+Entre navegantes el Samurai es conocido como 'el coche comedor'. 
+Tiene dos cabinas, una en popa con cama doble y otra en proa
+con cuchetas en v. Si fuera un depto diríamos que tiene doble circulación.
+El comedor es el espacio más grande y hemos sido ocho en alguna cena de año
+nuevo a bordo. 
 
 ## Espicificaciones
 

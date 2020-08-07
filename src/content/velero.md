@@ -1,5 +1,5 @@
 ---
-title: El Velero
+title: El velero
 featuredImage: ../assets/images/velero/header.jpg
 ---
 
@@ -18,7 +18,7 @@ Como tiene un cockpit central y mucha manga para su eslora, tiene
 bastante volumen interno. Por lo que es muy cómodo para vivir.
 Entre navegantes el Samurai es conocido como 'el coche comedor'. 
 Tiene dos cabinas, una en popa con cama doble y otra en proa
-con cuchetas en v. Si fuera un depto diríamos que tiene doble circulación.
+con cuchetas en "v". Si fuera un depto diríamos que tiene doble circulación.
 El comedor es el espacio más grande y hemos sido ocho en alguna cena de año
 nuevo a bordo. 
 

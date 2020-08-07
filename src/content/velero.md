@@ -9,7 +9,7 @@ Nuestro velero Samurai es un Alpha 36 (versión queche). Fue construido
 en el astillero Alpha en el año 1987 en Buenos Aires, Argentina. 
 
 Por lo que vimos es el único Alpha 36 con aparejo queche, pero si
-alguien tiene mas información ¡nos gustaría que nos cuente!. También tiene
+alguien tiene mas información ¡nos gustaría que nos cuente! También tiene
 trinquetilla que lleva la cantidad de velas a 4. Eso hace que lleve un
 poco más de trabajo el momento de izar todas las velas, pero también da
 distintas opciones para reducir paño y mantener el barco equilibrado.

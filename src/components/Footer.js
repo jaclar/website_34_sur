@@ -5,7 +5,7 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="https://www.instagram.com/34_sur" aria-label="Instagram" className="icon alt fa-instagram">
+            <a href="https://www.instagram.com/34_sur" aria-label="Instagram" className="icon alt fa-instagram">
             <span className="label">Instagram</span>
           </a>
         </li>
@@ -15,12 +15,11 @@ const Footer = props => (
           </a>
         </li>
       </ul>
-      <ul className="copyright">
-          <li>Content: Creative Commons - Lars Jacob & Gisela Cardozo</li>
-        <li>
-          Design: <a href="https://html5up.net">HTML5 UP</a> with sligh modifications
-        </li>
-      </ul>
+      <div className="copyright">
+	  Contenido: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><span> </span>
+	  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Reconocimiento 4.0</a> - Lars Jacob & Gisela Cardozo<br />
+          Diseño: <a href="https://html5up.net">HTML5 UP</a> con algunos cambios.
+      </div>
     </div>
   </footer>
 )

@@ -8,8 +8,7 @@ const Banner = props => (
             </header>
             <div className="content">
                 <p>
-                    es un sitio para documentar proyectos que estamos haciendo en el barco, <br />
-                    compartir cosas que aprendimos o que nos interesan.
+		    Navegar y vivir en el Río de la Plata. Proyectos y algo más.
                 </p>
                 <ul className="actions">
                     <li>

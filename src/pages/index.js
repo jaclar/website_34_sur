@@ -13,9 +13,9 @@ class HomeIndex extends React.Component {
         <Helmet
           title="34 Sur"
           meta={[
-            { name: 'description', content: '34 Sur es un sitio para documentar proyectos que estamos haciendo en el barco, compartir cosas que aprendimos o que nos interesan.' },
+            { name: 'description', content: '34 Sur - Navegar y vivir en el Río de la Plata. Proyectos y algo más.' },
 
-            { name: 'keywords', content: 'sailing, velero, sailboat, navegación, nautica' },
+            { name: 'keywords', content: 'sailing, velero, sailboat, navegación, nautica, rio de la plata, navegar' },
           ]}
         ></Helmet>
 

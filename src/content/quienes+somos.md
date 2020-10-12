@@ -1,22 +1,42 @@
 ---
-title: Quienes somos
-featuredImage: ../assets/images/lars-and-gise.jpg
+title: Quiénes somos
+featuredImage: ../assets/images/quienes-somos/lars-and-gise.jpg
 ---
 
 # La tripulación
 
 Somos Gisela y Lars y estamos viviendo abordo de nuestro
-[Velero](./velero) en Buenos Aires, Argentina. Navegamos desde
-el 2011 y vamos por nuestro tercer barco.
+[Velero](./velero) en Buenos Aires, Argentina.
 
-Empezamos con un H20: _Caleuche_ que usamos mucho y donde invertimos
-muchas horas para mejorarlo. ¡Hasta le metimos un Frigobar! :)
-En un momento, pasábamos mas noches en el barquito de 20 pies que en 
-nuestro departamento y entonces decidimos cancelar el
-contrato y comprarnos un velero más grande. En esa búsqueda
-encontramos al _Libero_, un Plenamar 30, que también recibió mucho
-cariño. Hicimos viajes lindos, tuvimos muchos aprendizajes
-con ese barco y cuando llegamos con él a Punta del Este decidimos de
-que probablemente necesitábamos algo más grande. Para vivir con un poco más
-de confort (llegás a Punta y te pinta eso) pero también para viajar un poco mas lejos. 
-Hoy tenemos el _Samurai_ que es un Alpha 36 con aparejo queche.
+En Año Nuevo (2010-2011) visitábamos Copenhague (Dinamarca) y, a pesar
+de las varias maravillas del lugar, Gisela quedó enamorada del puerto
+y surgió la idea de navegar a vela. En Buenos Aires, la náutica es un
+deporte al que sino tenés acceso por tu familia, resulta difícil
+acercarse.
+
+![Copenhague](../assets/images/quienes-somos/copenhague.jpg "Gisela
+mirando veleros en el hielo")
+
+De regreso en Buenos Aires, en el 2011 Gisela se subió por primera vez
+a un velero en el curso de Timonel. Lars, físico enamorado de las
+fuerzas de la naturaleza, se entusiasmó con la idea de navegar en el
+Río de la Plata y en 2012 nos compramos nuestro primer velero; un H20:
+_Caleuche_ que disfrutamos mucho y donde invertimos muchas horas para
+mejorarlo. ¡Hasta le metimos un Frigobar! :)
+
+(Foto Caleuche)
+
+En 2014, era evidente que pasábamos más noches en el barquito de 20
+pies que en nuestro departamento… entonces hicimos lo más lógico:
+¡comprar un velero más grande y dejar la tierra firme! _Libero_, un
+Plenamar 30, que también recibió mucho cariño. Con él hicimos nuestro
+primer cruce a Uruguay y otros tantos viajes. Cuando llegamos
+navegando a Punta del Este decidimos que probablemente necesitábamos
+algo más grande. Llegás a Punta y te pinta eso... o quizás nos pusimos
+un poco más grandes.
+
+(Foto Libero en Punta)
+
+Desde el 2017 tenemos el _Samurai_ que es un Alpha 36 con aparejo
+queche. Acá queremos compartir algunas de las cosas que fuimos
+haciendo en el barco y algo más.

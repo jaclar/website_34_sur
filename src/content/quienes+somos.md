@@ -13,6 +13,7 @@ de las varias maravillas del lugar, Gisela quedó enamorada del puerto
 y surgió la idea de navegar a vela. En Buenos Aires, la náutica es un
 deporte al que sino tenés acceso por tu familia, resulta difícil
 acercarse.
+
 ![Copenhague](../assets/images/quienes-somos/copenhague.jpg "Gisela
 mirando veleros en el hielo")
 

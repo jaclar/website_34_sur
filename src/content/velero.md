@@ -35,6 +35,6 @@ Manga | 3.5 m
 Calado | 1.5 m
 Desplazamiento | 6.500 kg
 Altura Interior | 1,85 m
-Motor | Volvo MD17d (36 HP) con pata
+Motor | Yanmar 3JH5E (39 HP) con pata SD60
 Gasoil | 100 l
 Agua | 80 l
